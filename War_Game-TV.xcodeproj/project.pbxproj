@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4093BC2531FD2200F3AB16 /* War_Game_TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093BB2531FD2200F3AB16 /* War_Game_TVApp.swift */; };
+		CE4093BE2531FD2200F3AB16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093BD2531FD2200F3AB16 /* ContentView.swift */; };
+		CE4093C02531FD2300F3AB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4093BF2531FD2300F3AB16 /* Assets.xcassets */; };
+		CE4093C32531FD2300F3AB16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4093C22531FD2300F3AB16 /* Preview Assets.xcassets */; };
+		CE4093CE2531FD2300F3AB16 /* War_Game_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093CD2531FD2300F3AB16 /* War_Game_TVTests.swift */; };
+		CE4093D92531FD2300F3AB16 /* War_Game_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093D82531FD2300F3AB16 /* War_Game_TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4093CA2531FD2300F3AB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4093B02531FD2200F3AB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4093B72531FD2200F3AB16;
+			remoteInfo = "War_Game-TV";
+		};
+		CE4093D52531FD2300F3AB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4093B02531FD2200F3AB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4093B72531FD2200F3AB16;
+			remoteInfo = "War_Game-TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE4093B82531FD2200F3AB16 /* War_Game-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War_Game-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4093BB2531FD2200F3AB16 /* War_Game_TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Game_TVApp.swift; sourceTree = "<group>"; };
+		CE4093BD2531FD2200F3AB16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE4093BF2531FD2300F3AB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4093C22531FD2300F3AB16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE4093C42531FD2300F3AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4093C92531FD2300F3AB16 /* War_Game-TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War_Game-TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4093CD2531FD2300F3AB16 /* War_Game_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Game_TVTests.swift; sourceTree = "<group>"; };
+		CE4093CF2531FD2300F3AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4093D42531FD2300F3AB16 /* War_Game-TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War_Game-TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4093D82531FD2300F3AB16 /* War_Game_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Game_TVUITests.swift; sourceTree = "<group>"; };
+		CE4093DA2531FD2300F3AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4093B52531FD2200F3AB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4093C62531FD2300F3AB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4093D12531FD2300F3AB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4093AF2531FD2200F3AB16 = {
+			isa = PBXGroup;
+			children = (
+				CE4093BA2531FD2200F3AB16 /* War_Game-TV */,
+				CE4093CC2531FD2300F3AB16 /* War_Game-TVTests */,
+				CE4093D72531FD2300F3AB16 /* War_Game-TVUITests */,
+				CE4093B92531FD2200F3AB16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4093B92531FD2200F3AB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4093B82531FD2200F3AB16 /* War_Game-TV.app */,
+				CE4093C92531FD2300F3AB16 /* War_Game-TVTests.xctest */,
+				CE4093D42531FD2300F3AB16 /* War_Game-TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4093BA2531FD2200F3AB16 /* War_Game-TV */ = {
+			isa = PBXGroup;
+			children = (
+				CE4093BB2531FD2200F3AB16 /* War_Game_TVApp.swift */,
+				CE4093BD2531FD2200F3AB16 /* ContentView.swift */,
+				CE4093BF2531FD2300F3AB16 /* Assets.xcassets */,
+				CE4093C42531FD2300F3AB16 /* Info.plist */,
+				CE4093C12531FD2300F3AB16 /* Preview Content */,
+			);
+			path = "War_Game-TV";
+			sourceTree = "<group>";
+		};
+		CE4093C12531FD2300F3AB16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE4093C22531FD2300F3AB16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE4093CC2531FD2300F3AB16 /* War_Game-TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4093CD2531FD2300F3AB16 /* War_Game_TVTests.swift */,
+				CE4093CF2531FD2300F3AB16 /* Info.plist */,
+			);
+			path = "War_Game-TVTests";
+			sourceTree = "<group>";
+		};
+		CE4093D72531FD2300F3AB16 /* War_Game-TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4093D82531FD2300F3AB16 /* War_Game_TVUITests.swift */,
+				CE4093DA2531FD2300F3AB16 /* Info.plist */,
+			);
+			path = "War_Game-TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4093B72531FD2200F3AB16 /* War_Game-TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4093DD2531FD2300F3AB16 /* Build configuration list for PBXNativeTarget "War_Game-TV" */;
+			buildPhases = (
+				CE4093B42531FD2200F3AB16 /* Sources */,
+				CE4093B52531FD2200F3AB16 /* Frameworks */,
+				CE4093B62531FD2200F3AB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "War_Game-TV";
+			productName = "War_Game-TV";
+			productReference = CE4093B82531FD2200F3AB16 /* War_Game-TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4093C82531FD2300F3AB16 /* War_Game-TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4093E02531FD2300F3AB16 /* Build configuration list for PBXNativeTarget "War_Game-TVTests" */;
+			buildPhases = (
+				CE4093C52531FD2300F3AB16 /* Sources */,
+				CE4093C62531FD2300F3AB16 /* Frameworks */,
+				CE4093C72531FD2300F3AB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4093CB2531FD2300F3AB16 /* PBXTargetDependency */,
+			);
+			name = "War_Game-TVTests";
+			productName = "War_Game-TVTests";
+			productReference = CE4093C92531FD2300F3AB16 /* War_Game-TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE4093D32531FD2300F3AB16 /* War_Game-TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4093E32531FD2300F3AB16 /* Build configuration list for PBXNativeTarget "War_Game-TVUITests" */;
+			buildPhases = (
+				CE4093D02531FD2300F3AB16 /* Sources */,
+				CE4093D12531FD2300F3AB16 /* Frameworks */,
+				CE4093D22531FD2300F3AB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4093D62531FD2300F3AB16 /* PBXTargetDependency */,
+			);
+			name = "War_Game-TVUITests";
+			productName = "War_Game-TVUITests";
+			productReference = CE4093D42531FD2300F3AB16 /* War_Game-TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4093B02531FD2200F3AB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CE4093B72531FD2200F3AB16 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CE4093C82531FD2300F3AB16 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE4093B72531FD2200F3AB16;
+					};
+					CE4093D32531FD2300F3AB16 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE4093B72531FD2200F3AB16;
+					};
+				};
+			};
+			buildConfigurationList = CE4093B32531FD2200F3AB16 /* Build configuration list for PBXProject "War_Game-TV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4093AF2531FD2200F3AB16;
+			productRefGroup = CE4093B92531FD2200F3AB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4093B72531FD2200F3AB16 /* War_Game-TV */,
+				CE4093C82531FD2300F3AB16 /* War_Game-TVTests */,
+				CE4093D32531FD2300F3AB16 /* War_Game-TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4093B62531FD2200F3AB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4093C32531FD2300F3AB16 /* Preview Assets.xcassets in Resources */,
+				CE4093C02531FD2300F3AB16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4093C72531FD2300F3AB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4093D22531FD2300F3AB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4093B42531FD2200F3AB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4093BE2531FD2200F3AB16 /* ContentView.swift in Sources */,
+				CE4093BC2531FD2200F3AB16 /* War_Game_TVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4093C52531FD2300F3AB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4093CE2531FD2300F3AB16 /* War_Game_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4093D02531FD2300F3AB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4093D92531FD2300F3AB16 /* War_Game_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE4093CB2531FD2300F3AB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4093B72531FD2200F3AB16 /* War_Game-TV */;
+			targetProxy = CE4093CA2531FD2300F3AB16 /* PBXContainerItemProxy */;
+		};
+		CE4093D62531FD2300F3AB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4093B72531FD2200F3AB16 /* War_Game-TV */;
+			targetProxy = CE4093D52531FD2300F3AB16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE4093DB2531FD2300F3AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		CE4093DC2531FD2300F3AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4093DE2531FD2300F3AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"War_Game-TV/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YBBBYMD8T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "War_Game-TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.War-Game-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		CE4093DF2531FD2300F3AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"War_Game-TV/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YBBBYMD8T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "War_Game-TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.War-Game-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		CE4093E12531FD2300F3AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YBBBYMD8T;
+				INFOPLIST_FILE = "War_Game-TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.War-Game-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War_Game-TV.app/War_Game-TV";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		CE4093E22531FD2300F3AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YBBBYMD8T;
+				INFOPLIST_FILE = "War_Game-TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.War-Game-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War_Game-TV.app/War_Game-TV";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		CE4093E42531FD2300F3AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YBBBYMD8T;
+				INFOPLIST_FILE = "War_Game-TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.War-Game-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "War_Game-TV";
+			};
+			name = Debug;
+		};
+		CE4093E52531FD2300F3AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YBBBYMD8T;
+				INFOPLIST_FILE = "War_Game-TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.War-Game-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "War_Game-TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4093B32531FD2200F3AB16 /* Build configuration list for PBXProject "War_Game-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4093DB2531FD2300F3AB16 /* Debug */,
+				CE4093DC2531FD2300F3AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4093DD2531FD2300F3AB16 /* Build configuration list for PBXNativeTarget "War_Game-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4093DE2531FD2300F3AB16 /* Debug */,
+				CE4093DF2531FD2300F3AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4093E02531FD2300F3AB16 /* Build configuration list for PBXNativeTarget "War_Game-TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4093E12531FD2300F3AB16 /* Debug */,
+				CE4093E22531FD2300F3AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4093E32531FD2300F3AB16 /* Build configuration list for PBXNativeTarget "War_Game-TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4093E42531FD2300F3AB16 /* Debug */,
+				CE4093E52531FD2300F3AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4093B02531FD2200F3AB16 /* Project object */;
+}
