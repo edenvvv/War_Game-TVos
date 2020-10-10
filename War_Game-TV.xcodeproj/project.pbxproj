@@ -13,6 +13,8 @@
 		CE4093C32531FD2300F3AB16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4093C22531FD2300F3AB16 /* Preview Assets.xcassets */; };
 		CE4093CE2531FD2300F3AB16 /* War_Game_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093CD2531FD2300F3AB16 /* War_Game_TVTests.swift */; };
 		CE4093D92531FD2300F3AB16 /* War_Game_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093D82531FD2300F3AB16 /* War_Game_TVUITests.swift */; };
+		CE4093EA2531FEFA00F3AB16 /* The_Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093E92531FEFA00F3AB16 /* The_Game.swift */; };
+		CE4093EF2531FF0D00F3AB16 /* war_case.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4093EE2531FF0D00F3AB16 /* war_case.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CE4093D42531FD2300F3AB16 /* War_Game-TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War_Game-TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4093D82531FD2300F3AB16 /* War_Game_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Game_TVUITests.swift; sourceTree = "<group>"; };
 		CE4093DA2531FD2300F3AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4093E92531FEFA00F3AB16 /* The_Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Game.swift; sourceTree = "<group>"; };
+		CE4093EE2531FF0D00F3AB16 /* war_case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_case.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CE4093BB2531FD2200F3AB16 /* War_Game_TVApp.swift */,
 				CE4093BD2531FD2200F3AB16 /* ContentView.swift */,
+				CE4093E92531FEFA00F3AB16 /* The_Game.swift */,
+				CE4093EE2531FF0D00F3AB16 /* war_case.swift */,
 				CE4093BF2531FD2300F3AB16 /* Assets.xcassets */,
 				CE4093C42531FD2300F3AB16 /* Info.plist */,
 				CE4093C12531FD2300F3AB16 /* Preview Content */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4093BE2531FD2200F3AB16 /* ContentView.swift in Sources */,
+				CE4093EA2531FEFA00F3AB16 /* The_Game.swift in Sources */,
+				CE4093EF2531FF0D00F3AB16 /* war_case.swift in Sources */,
 				CE4093BC2531FD2200F3AB16 /* War_Game_TVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
