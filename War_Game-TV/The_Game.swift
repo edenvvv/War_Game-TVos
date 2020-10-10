@@ -25,12 +25,13 @@ struct The_Game: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack{//Put the items on top of each other
-                Spacer()
+                Spacer().padding()
+                    .frame(height: 165.0)// Adds space between the top object and the bottom object
                 Image("logo")
                 
                 Spacer()
                     .padding()
-                    .frame(height: 45.0) // Adds space between the top object and the bottom object
+                    .frame(height: 1.0)
                 
                 
                 VStack(){
@@ -44,10 +45,10 @@ struct The_Game: View {
                             .font(.largeTitle)
                             .foregroundColor(Color.white)
                             
-                            .padding(.leading, 20.0)
+                            .padding(.leading, 1.0)
                     }
                     Spacer().padding()
-                    .frame(height: 20.0)
+                    .frame(height: 1.0)
                     HStack{//Put the items next to each other
                         // At first shows the back of the card
                         if self.player_card == 0 &&
@@ -65,12 +66,12 @@ struct The_Game: View {
                 }
                 
                 
-                Spacer()
-                    .frame(height: 88.0)
+//                Spacer()
+//                    .frame(height: 88.0)
                 
                 if self.case_war{
                     NavigationLink(destination: war_case(base: self)) { // "war_case()" is from war_case file
-                        Image("logo").renderingMode(.original).padding(.leading, -25.0)// Displays the image in its original form
+                        Image("logo").renderingMode(.original).padding(.leading, 1.0)// Displays the image in its original form
                         
                     }.padding(.top, -15.0).navigationBarBackButtonHidden(true)
                 }
@@ -80,12 +81,12 @@ struct The_Game: View {
                         self.button_action()
                         
                     }, label: {
-                        Image("dealbutton").renderingMode(.original).padding([.leading, .bottom], -25.0)// Displays the image in its original form
+                        Image("dealbutton").renderingMode(.original).padding([.leading, .bottom], 1.0)// Displays the image in its original form
                     }).navigationBarBackButtonHidden(true)
                 }
                 
                 
-                Spacer().frame(height: 40.0)
+//                Spacer().frame(height: 40.0)
                 
                 HStack{
                     VStack{
@@ -103,12 +104,12 @@ struct The_Game: View {
                         VStack(){
                             Text("opponent ").font(.title).bold().padding(.bottom,25)
                             
-//                            Spacer().frame(height: -25.0)
+                            Spacer().frame(height: 1.0)
                             
                             Text("score:").font(.title).bold().padding(.bottom,25)
                         }
                         
-//                        Spacer().frame(height: -15.0)
+                        Spacer().frame(height: 1.0)
                         
                         Text(String(self.opponent_score))
                             .font(.largeTitle)

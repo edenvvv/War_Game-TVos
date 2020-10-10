@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		CE4093B82531FD2200F3AB16 /* War_Game-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War_Game-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4093BB2531FD2200F3AB16 /* War_Game_TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Game_TVApp.swift; sourceTree = "<group>"; };
-		CE4093BD2531FD2200F3AB16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE4093BD2531FD2200F3AB16 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		CE4093BF2531FD2300F3AB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4093C22531FD2300F3AB16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE4093C42531FD2300F3AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };

@@ -19,6 +19,8 @@ struct war_case: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack(){
+                Spacer().padding()
+                    .frame(height: 20.0)
                 HStack(alignment: .center){
                     Text("You")
                         .font(.largeTitle)
@@ -60,7 +62,7 @@ struct war_case: View {
                         self.flips_cards()
                         
                     }, label: {
-                        Image("dealbutton").renderingMode(.original).padding(.top, 200.0)// Displays the image in its original form
+                        Image("dealbutton").renderingMode(.original).padding(.top, 1.0)// Displays the image in its original form
                     }).navigationBarBackButtonHidden(true)
                     .frame(height:1.0)
                 }
@@ -79,7 +81,7 @@ struct war_case: View {
                         }
                         self.base.set_war_status()
                     }, label: {
-                        Image("backButton").renderingMode(.original).padding(.top, 200.0)// Displays the image in its original form
+                        Image("backButton").renderingMode(.original).padding(.top, 1.0)// Displays the image in its original form
                     }).navigationBarBackButtonHidden(true)
                     .frame(height:1.0)
                 }
@@ -144,8 +146,6 @@ struct war_case: View {
                     Text(String(self.opponent_score)).font(.largeTitle)
                     .fontWeight(.bold)
                 }.padding(.leading,0).foregroundColor(.white)
-                Spacer()
-                    .padding(.top, 150.0)
             }
         }
     }
